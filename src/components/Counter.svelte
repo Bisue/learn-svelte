@@ -1,5 +1,6 @@
 <script lang="ts">
   let count = 0;
+  $: multiplied = count * 10;
 
   function increase() {
     count++;
@@ -11,7 +12,7 @@
 </script>
 
 <div>
-  <span class="count">{count}</span>
+  <span class="count">{count}({multiplied})</span>
   <button on:click={increase}>Up</button>
   <button on:click={decrease}>Down</button>
 </div>
