@@ -1,6 +1,12 @@
 <script lang="ts">
   let count = 0;
   $: multiplied = count * 10;
+  $: console.log('actions count:', count);
+  $: {
+    console.log('=========================');
+    console.log('action block count:', count);
+    console.log('=========================');
+  }
 
   function increase() {
     count++;
