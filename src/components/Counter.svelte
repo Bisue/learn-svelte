@@ -7,6 +7,11 @@
     console.log('action block count:', count);
     console.log('=========================');
   }
+  $: if (count >= 10) {
+    console.log('=========================');
+    console.log('action block count(>= 10):', count);
+    console.log('=========================');
+  }
 
   function increase() {
     count++;
