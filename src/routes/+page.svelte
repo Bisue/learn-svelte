@@ -1,6 +1,7 @@
 <script>
   import Counter from '../components/Counter.svelte';
   import List from '../components/List.svelte';
+  import Promise from '../components/Promise.svelte';
 </script>
 
 <h1>Welcome to SvelteKit</h1>
@@ -8,3 +9,4 @@
 
 <Counter />
 <List />
+<Promise />
