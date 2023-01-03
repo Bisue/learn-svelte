@@ -28,6 +28,14 @@
   <button on:click={decrease}>Down</button>
 </div>
 
+{#if count > 10}
+  <div>A</div>
+{:else if count > 5}
+  <div>B</div>
+{:else}
+  <div>C</div>
+{/if}
+
 <style>
   .count {
     font-weight: bold;
