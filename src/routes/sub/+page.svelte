@@ -1,1 +1,5 @@
-<h1>Route</h1>
+<script>
+  import Prop from '../../components/Prop.svelte';
+</script>
+
+<Prop message={'Greeting'}/>
