@@ -3,3 +3,4 @@
 </script>
 
 <Prop message={'Greeting'}/>
+<Prop/>
